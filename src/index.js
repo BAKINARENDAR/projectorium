@@ -9,3 +9,7 @@ root.render(
     <App />
   </React.StrictMode>
 );
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7d1b4fb34bc363af47dc7e03c245fdc7ddf056de
