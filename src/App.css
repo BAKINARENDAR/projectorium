@@ -68,3 +68,248 @@ body {
 .search-input::placeholder{
   font-size: 0.9rem;
 }
+
+.login
+{
+  background-color: #09c3ab;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 100px;
+  height: 37px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about
+{
+  background-color: #09c3ab;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 95px;
+  height: 37px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.care
+{
+  background-color: #09c3ab;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 150px;
+  height: 37px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.contact
+{
+  font-size: 1.1rem;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+.nav-submenu {
+  display: none;
+  position: absolute;
+  top: 55px;
+  left: 70%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 250px;
+  height: 100px;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+.nav-submenu-arrowup {
+  font-size: 2.2rem;
+  color: #fff;
+  margin-left: 100px;
+  margin-top: -2.9rem;
+}
+.nav-submenu label {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #444444;
+}
+
+.submenu-signin button {
+  height: 33px;
+  width: 180px;
+  background-color: #003550;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+.submenu-signin p {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+.nav-login:hover .nav-submenu {
+  display: block;
+}
+.nav-signin {
+  position: relative;
+  padding: 0.5rem;
+}
+.down-arrow {
+  color: #fff;
+  font-size: 0.8rem;
+}
+.signin-container
+{
+  position: relative;
+  background-color: #fff;
+  height: 640px;
+  background-image: url("images/login-signup-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.signin-container::before {
+  content: ""; /* Required to display the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1; 
+}
+.signin-logo
+{
+  width: 160px;
+  height: 48px;
+  background-image: url("images/p-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: cover;
+ margin-left: 37rem;
+padding-top: 10px;
+
+}
+.signin-form
+{
+  position: relative; 
+  z-index: 2; 
+  width: 350px;
+  height: 450px;
+  margin-left: 31rem;
+  border: 1px solid #d5d9d9;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  
+}
+.signin-form h3{
+  font-size: 1.7rem;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: 300;
+}
+.email-input
+{
+  margin-left: 20px;
+  margin-top: 40px;
+ 
+}
+.password-input
+{ margin-left: 20px;
+  margin-top: 10px;
+ 
+
+}
+.em-i{
+width: 300px;
+height: 27px;
+border: 1px solid #888c8c;
+outline: none;
+border-radius: 3px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.pas-i{
+  width: 300px;
+  height: 27px;
+  border: 1px solid #888c8c;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.forgot-pas
+{
+  color: #087185;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.sign-button
+{
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.signin-b
+{
+ background-color: #09c3ab;
+ width: 280px;
+ border: none;
+ outline: none;
+ height: 30px;
+ border-radius: 15px;
+ cursor: pointer;
+}
+.not 
+{
+  display: flex;
+}
+.not p{
+  color: #888c8c;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.not span{
+  color:#087185 ;
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.other h3{
+  font-size: 1rem;
+}
+.google-sign
+{
+  background-image: url('images/google-signin.png');
+  width: 200px;
+  height: 40px;
+ background-repeat: no-repeat;
+ background-size: contain;
+ object-fit: cover;
+ margin-left: 80px;
+ margin-top: 15px;
+ cursor: pointer;
+}
+.sign-cancel
+{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.signin-cancel
+{
+  background-color: #ffffff;
+  border: 1px solid #888c8c;
+  outline: none;
+  width: 280px;
+  height: 30px; 
+  border-radius: 15px;
+}
