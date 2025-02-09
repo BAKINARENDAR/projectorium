@@ -14,9 +14,11 @@ const Signin=()=>{
     <section>
     <div className="signin-container">
           <div className="signin-content">
-            <div className="signin-logo"></div>
+            
             <div className="signin-form">
-              <h3>Sign In</h3>
+            <div className="signin-logo"></div>
+              <h3 style={{color: '#067062'}}>Sign In</h3>
+              <p style={{marginLeft:'20px',marginTop:'10px',fontSize:'15px',fontStyle:'normal'}}>Welcome back!</p>
               <div className="email-input"> 
               <input
                 type="email"
@@ -27,7 +29,7 @@ const Signin=()=>{
               <div className="password-input">
                <input
                 type="password"
-                placeholder="password"
+                placeholder="Password"
                className="pas-i"
               />
               </div>

@@ -13,29 +13,37 @@ const Signup = () => {
       <section>
         <div className="signin-container">
           <div className="signin-content">
-            <div className="signin-logo"></div>
+            
             <div className="signin-form">
-              <h3>Create Account</h3>
-              <div className="signup-details">
+            <div className="signin-logo"></div>
+              <h3 style={{color: '#067062'}}>Create Account</h3>
+              <div className="Name_i">
                 <input
                   type="text"
-                  placeholder="Full Name"
-                  className="fullname"
+                  placeholder="First Name"
+                  className="firstname"
                 />
                 <input
                   type="text"
-                  placeholder="Contact No"
-                  className="fullname"
+                  placeholder="Last Name"
+                  className="lastname"
                 />
-                
+                </div>
+              <div className="Contact">
+              <input
+              type="text"
+              placeholder="Contact no"
+              className="contact_i"
+              />
               </div>
+              
               <div className="signup-email-input">
                 <input type="email" placeholder="Email" className="em-i" />
               </div>
               <div className="signup-password-input">
                 <input
                   type="password"
-                  placeholder="password"
+                  placeholder="Password"
                   className="pas-i"
                 />
               </div>

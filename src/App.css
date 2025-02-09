@@ -124,13 +124,10 @@ body {
 .nav-submenu {
   display: none;
   position: absolute;
-
   top: 50px;
   left: 70%;
-
   top: 55px;
   left: 75%;
-
   transform: translateX(-50%);
   width: 200px;
   height: 100px;
@@ -188,6 +185,7 @@ body {
   background-image: url("images/login-signup-background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 60px;
   
 }
 .signin-container::before {
@@ -199,17 +197,16 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1; 
+  
 }
 .signin-logo
 {
-  width: 160px;
-  height: 48px;
+  width: 250px;
+  height: 60px;
   background-image: url("images/p-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
-  object-fit: cover;
- margin-left: 37rem;
-padding-top: 10px;
+  margin-left: 85px;
 
 }
 .signin-form
@@ -217,7 +214,7 @@ padding-top: 10px;
   position: relative; 
   z-index: 2; 
   width: 350px;
-  height: 450px;
+  height: 470px;
   margin-left: 31rem;
   border: 1px solid #d5d9d9;
   border-radius: 0.5rem;
@@ -226,14 +223,14 @@ padding-top: 10px;
 }
 .signin-form h3{
   font-size: 1.7rem;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
   font-weight: 300;
 }
 .email-input
 {
   margin-left: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
  
 }
 .password-input
@@ -260,7 +257,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 .forgot-pas
 {
-  color: #087185;
+  color: #067062;
   margin-top: 20px;
   margin-left: 20px;
   font-size: 0.8rem;
@@ -273,13 +270,14 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 .signin-b
 {
- background-color: #09c3ab;
+ background-color: #067062;
  width: 280px;
  border: none;
  outline: none;
  height: 30px;
  border-radius: 15px;
  cursor: pointer;
+ color: white;
 }
 .not 
 {
@@ -300,6 +298,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 .other h3{
   font-size: 1rem;
 }
+
 .google-sign
 {
   background-image: url('images/google-signin.png');
@@ -328,22 +327,45 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   cursor: pointer;
 }
-.signup-details
+.Name_i
 {
   display: flex;
   margin-top: 15px;
 }
-.fullname
+
+.firstname
 {
-  width: 135px;
-  margin-left: 20px;
   height: 25px;
+  width: 140px;
+  margin-left: 20px;
   border: 1px solid #888c8c;
 outline: none;
 border-radius: 3px;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.lastname
+{
+  height: 25px;
+  width: 144px;
+  margin-left: 10px;
+  border: 1px solid #888c8c;
+outline: none;
+border-radius: 3px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.Contact
+{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.contact_i{
+  width: 300px;
+  height: 27px;
+  border: 1px solid #888c8c;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
 .signup-email-input
 {
   margin-left: 20px;
