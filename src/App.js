@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { createContext, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
@@ -30,14 +29,6 @@ function App() {
         {showheaderfooter && <Footer />}
       </MyContext.Provider>
     </BrowserRouter>
-=======
-import './App.css';
-
-function App() {
-  return (
-    <>
-    </>
->>>>>>> 7d1b4fb34bc363af47dc7e03c245fdc7ddf056de
   );
 }
 
