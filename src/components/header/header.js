@@ -1,8 +1,10 @@
 import { Drawer, IconButton } from "@mui/material";
 import React, { useState } from "react";
+import { CiCircleInfo } from "react-icons/ci";
 import { FaSearch } from "react-icons/fa";
 import { IoIosContact, IoIosMenu, IoMdArrowDropup } from "react-icons/io";
 
+import { RiCustomerService2Fill } from "react-icons/ri";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -48,11 +50,19 @@ const Header = () => {
           </div>
 
           <div className="nav-about">
-            <button className="about">About us</button>
+          
+
+            <button className="about">
+            <CiCircleInfo  className="ab-info" />
+            <p>About us</p>
+            </button>
           </div>
 
           <div className="nav-ccare">
-            <button className="care">24x7 Customer Care</button>
+            <button className="care">
+            <RiCustomerService2Fill className="care-info" />
+
+              <p>24x7 Customer Care</p></button>
           </div>
 
           {/* Right Side Sidebar (Drawer) */}
