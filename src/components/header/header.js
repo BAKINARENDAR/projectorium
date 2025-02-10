@@ -1,6 +1,17 @@
+import { Drawer, IconButton } from "@mui/material";
+import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import { IoIosContact, IoMdArrowDropup } from "react-icons/io";
-const header = () => {
+import { IoIosContact, IoIosMenu, IoMdArrowDropup } from "react-icons/io";
+
+
+const Header = () => {
+  const [open, setOpen] = useState(false);
+
+  // Function to toggle the drawer
+  const toggleDrawer = (open) => () => {
+    setOpen(open);
+  };
+
   return (
     <>
       <header>
@@ -20,39 +31,47 @@ const header = () => {
             </div>
           </div>
 
-
           <div className="nav-login">
-            
             <button className="login">
-
-            <IoIosContact  className="contact"/> 
-            <p>Account</p>
+              <IoIosContact className="contact" />
+              <p>Account</p>
             </button>
             <div className="nav-submenu">
               <IoMdArrowDropup className="nav-submenu-arrowup" />
               <label>
                 <div className="submenu-signin">
                   <button>Sign in</button>
-                  <p>New customer?Start here.</p>
+                  <p>New customer? Start here.</p>
                 </div>
               </label>
             </div>
           </div>
 
           <div className="nav-about">
-            <button className="about">
-              About us
-            </button>
+            <button className="about">About us</button>
           </div>
 
           <div className="nav-ccare">
-            <button className="care">
-            24x7 Customer Care
-            </button>
+            <button className="care">24x7 Customer Care</button>
+          </div>
+
+          {/* Right Side Sidebar (Drawer) */}
+          <div className="sidemenu">
+            <div className="sidemenu-content">
+              <IconButton onClick={toggleDrawer(true)}>
+              <IoIosMenu className="menu" />
+
+              </IconButton>
+
+              <Drawer anchor="right" open={open} onClose={toggleDrawer(false)} className="draw-sidebar" >
+               
+              </Drawer>
+            </div>
           </div>
         </div>
       </header>
     </>
   );
 };
-export default header;
+
+export default Header;

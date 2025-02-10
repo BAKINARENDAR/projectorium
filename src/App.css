@@ -26,7 +26,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
  margin-top: 30px;
- padding-left: 10px;
+ margin-left: 20px;
 
 }
  .search-input
@@ -54,7 +54,6 @@ body {
   border-top-left-radius: 0.2rem;
   border-bottom-left-radius: 0.2rem;
   overflow: visible;
-  padding-left: 7rem;
   
 }
 
@@ -387,4 +386,13 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
  margin-left: 80px;
  margin-top: 15px;
  cursor: pointer;
+}
+
+.menu
+{
+  color: #067062;
+}
+.draw-sidebar .MuiDrawer-paper
+{
+  width: 250px;
 }
