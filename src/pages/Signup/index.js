@@ -1,6 +1,7 @@
 import { useContext, useEffect } from "react";
 import { MyContext } from "../../App";
 
+
 const Signup = () => {
   const { setshowheaderfooter } = useContext(MyContext);
   useEffect(() => {
