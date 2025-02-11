@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Home from './pages/Home/index';
+import ProjectDetails from "./pages/ProjectDetails";
 import Signin from './pages/Signin/index';
 import Signup from './pages/Signup/index';
 
@@ -23,6 +24,7 @@ function App() {
         {showheaderfooter && <Header />}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ProjectDetails" element={<ProjectDetails />} />
           <Route path="/SignIn" element={<Signin />} />
           <Route path="/Signup" element={<Signup />} />
         </Routes>
