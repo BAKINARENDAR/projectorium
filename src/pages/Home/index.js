@@ -27,6 +27,7 @@ const Home=()=>{
         </Swiper>
       
       </div>
+
         </>
     )
 }
