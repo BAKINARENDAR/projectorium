@@ -7,6 +7,7 @@ import Home from './pages/Home/index';
 import ProjectDetails from "./pages/ProjectDetails";
 import Signin from './pages/Signin/index';
 import Signup from './pages/Signup/index';
+import AboutUs from './pages/AboutUs/index';
 
 export const MyContext = createContext();
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/ProjectDetails" element={<ProjectDetails />} />
           <Route path="/SignIn" element={<Signin />} />
           <Route path="/Signup" element={<Signup />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
         {showheaderfooter && <Footer />}
       </MyContext.Provider>
