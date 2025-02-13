@@ -483,5 +483,108 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-top: 1px solid #444;
   padding-top: 10px;
 }
+.details-sidebar {
+  background-color: #ffff;
+  width: 50%;
+  height: 100vh;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 
+}
+.details-sidebar .thumbnail-major {
+  width: 450px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  height: 300px;
+}
 
+.thumbnail-gallery {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-evenly;
+ 
+}
+.thumbnail-gallery {
+  width: 80px;
+  height: 60px;
+  margin-top: 200px;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 5px;
+  gap: 8px;
+ 
+}
+.thumbnail:hover {
+  border: 2px solid #067062;
+}
+.details-list {
+  display: flex;
+}
+.details-content-right {
+  background-color: #fff;
+  width: 65%;
+  display: flex;
+}
+.details1 {
+  width: 60%;
+}
+.details-content-right {
+  background-color: #fff;
+  width: 65%;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.bannerSwiper {
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.bannerSwiper img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.simg1{
+  background-image: url("images/banner.png");
+  width: 600px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.simg2{
+  background-image: url("images/banner1.jpg");
+  width: 600px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.simg3{
+  background-image: url("images/banner2.png");
+  width: 600px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.simg4{
+  background-image: url("images/banner3.jpg");
+  width: 600px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #11100c;
+  font-weight: 300;
+}
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  border: 3px solid #007185;
+  padding: 1rem;
+  position: fixed;
+}
