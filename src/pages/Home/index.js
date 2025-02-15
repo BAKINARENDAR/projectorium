@@ -13,7 +13,7 @@ const Home=()=>{
         navigation={true}
         pagination={{ clickable: true }}
         autoplay={{
-          delay: 1000, // Delay between slides (in ms)
+          delay: 2000, // Delay between slides (in ms)
           disableOnInteraction: false, // Continue autoplay after user interaction
         }}
         modules={[Navigation, Autoplay]}
@@ -27,19 +27,89 @@ const Home=()=>{
         </Swiper>
       
       </div>
-      <div className="fivestar-container">
-        <h2 style={{ color: "#067062" }}>5-star projects:</h2>
+      <div className="fivestar-container" style={{marginBottom: "30px"}}>
+        <h2 style={{ color: "#067062"}}>5-Star Projects:</h2>
         <Swiper
-  navigation={true}
-  pagination={{ clickable: true }}
-  autoplay={false}
-  modules={[Navigation, Autoplay]}
-  className="fivestar custom-swiper" 
->
-
-        <SwiperSlide className="fimg1"></SwiperSlide>
-        <SwiperSlide className="fimg2"></SwiperSlide>
-      </Swiper>
+        spaceBetween={10}  
+        slidesPerView={4}
+        navigation={true}
+        pagination={{ clickable: true }}
+        autoplay={false}
+        modules={[Navigation, Autoplay]}
+        className="fivestar custom-swiper"
+        >
+  <SwiperSlide>
+    <button className="fimg1" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg2" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg3" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg4" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg5" onClick={() => {}}></button>
+  </SwiperSlide>
+</Swiper>
+      </div>
+      <div className="fivestar-container" style={{marginBottom: "30px"}}>
+        <h2 style={{ color: "#067062"}}>4-Star Projects:</h2>
+        <Swiper
+        spaceBetween={10}  
+        slidesPerView={4}
+        navigation={true}
+        pagination={{ clickable: true }}
+        autoplay={false}
+        modules={[Navigation, Autoplay]}
+        className="fivestar custom-swiper"
+        >
+  <SwiperSlide>
+    <button className="fimg1" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg2" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg3" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg4" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg5" onClick={() => {}}></button>
+  </SwiperSlide>
+</Swiper>
+      </div>
+      <div className="fivestar-container" style={{marginBottom: "30px"}}>
+        <h2 style={{ color: "#067062"}}>3-Star Projects:</h2>
+        <Swiper
+        spaceBetween={10}  
+        slidesPerView={4}
+        navigation={true}
+        pagination={{ clickable: true }}
+        autoplay={false}
+        modules={[Navigation, Autoplay]}
+        className="fivestar custom-swiper"
+        >
+  <SwiperSlide>
+    <button className="fimg1" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg2" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg3" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg4" onClick={() => {}}></button>
+  </SwiperSlide>
+  <SwiperSlide>
+    <button className="fimg5" onClick={() => {}}></button>
+  </SwiperSlide>
+</Swiper>
       </div>
         </>
     )
