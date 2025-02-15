@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"
 
-
 const footer=()=>{
     return(
         <>
@@ -10,9 +9,8 @@ const footer=()=>{
       <div className="footer-container">
         {/* Logo Section */}
         <div className="footer-logo">
-            <br>
-            </br>
-          <h2>Projectorium</h2>
+            <div className="logoblack"></div>             
+            
           <p>Your hub for project ideas and collaboration.</p>
         </div>
 

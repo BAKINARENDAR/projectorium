@@ -13,7 +13,7 @@ const Home=()=>{
         navigation={true}
         pagination={{ clickable: true }}
         autoplay={{
-          delay: 2000, // Delay between slides (in ms)
+          delay: 1000, // Delay between slides (in ms)
           disableOnInteraction: false, // Continue autoplay after user interaction
         }}
         modules={[Navigation, Autoplay]}
@@ -27,7 +27,20 @@ const Home=()=>{
         </Swiper>
       
       </div>
+      <div className="fivestar-container">
+        <h2 style={{ color: "#067062" }}>5-star projects:</h2>
+        <Swiper
+  navigation={true}
+  pagination={{ clickable: true }}
+  autoplay={false}
+  modules={[Navigation, Autoplay]}
+  className="fivestar custom-swiper" 
+>
 
+        <SwiperSlide className="fimg1"></SwiperSlide>
+        <SwiperSlide className="fimg2"></SwiperSlide>
+      </Swiper>
+      </div>
         </>
     )
 }

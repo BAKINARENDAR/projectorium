@@ -564,6 +564,33 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   height: 100vh;
   background-size: cover;
 }
+.fivestar-container{
+  background-color: white;
+}
+.custom-swiper .swiper-button-prev,
+.custom-swiper .swiper-button-next {
+  font-size: 1px !important;
+  width: 1px !important;
+  height: 1px !important;
+}
+.fivestar{
+  height: 30vh;
+  width: auto;
+}
+.fimg1{
+  background-image: url("images/fimg1.jpg");
+  width: 600px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fimg2{
+  background-image: url("images/fimg2.jpg");
+  width: 600px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .simg1{
   background-image: url("images/banner.png");
   width: 600px;
@@ -592,6 +619,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   color: #11100c;
@@ -686,4 +714,12 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   margin-left: 20px;
   margin-top: 10px;
   border: none;
+}
+.logoblack{
+  background-image: url("images/logob.png");
+  width: 200px;
+  height: 50px;
+  margin-left: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
