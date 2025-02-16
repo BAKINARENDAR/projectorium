@@ -27,8 +27,8 @@ const Home=()=>{
         </Swiper>
       
       </div>
-      <div className="fivestar-container" style={{marginBottom: "30px"}}>
-        <h2 style={{ color: "#067062"}}>5-Star Projects:</h2>
+      <div className="fivestar-container" style={{marginTop: "30px",marginLeft:"10px",marginRight:"10px"}}>
+      <center><h2 style={{ color: "white", backgroundColor:"#067062",marginBottom:"10px"}}>5-Star Projects</h2></center>
         <Swiper
         spaceBetween={10}  
         slidesPerView={4}
@@ -55,8 +55,8 @@ const Home=()=>{
   </SwiperSlide>
 </Swiper>
       </div>
-      <div className="fivestar-container" style={{marginBottom: "30px"}}>
-        <h2 style={{ color: "#067062"}}>4-Star Projects:</h2>
+      <div className="fivestar-container" style={{marginTop: "30px",marginLeft:"10px",marginRight:"10px"}}>
+      <center><div style={{ color: "white", backgroundColor:"#067062",marginBottom:"10px"}}><h2>4-Star Projects</h2></div></center>
         <Swiper
         spaceBetween={10}  
         slidesPerView={4}
@@ -83,8 +83,8 @@ const Home=()=>{
   </SwiperSlide>
 </Swiper>
       </div>
-      <div className="fivestar-container" style={{marginBottom: "30px"}}>
-        <h2 style={{ color: "#067062"}}>3-Star Projects:</h2>
+      <div className="fivestar-container" style={{marginTop: "30px",marginLeft:"10px",marginRight:"10px"}}>
+        <center><h2 style={{ color: "white", backgroundColor:"#067062",marginBottom:"10px"}}>3-Star Projects</h2></center>
         <Swiper
         spaceBetween={10}  
         slidesPerView={4}
