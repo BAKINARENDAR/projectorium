@@ -74,7 +74,17 @@ const Header = () => {
               </IconButton>
 
               <Drawer anchor="right" open={open} onClose={toggleDrawer(false)} className="draw-sidebar" >
-               
+               <center><h2 style={{color:"#067062", marginTop:"10px",marginBottom:"30px"}}>CONTENTS</h2></center>
+               <div className="top-button">
+               <button className="homebutton" onClick={() => {}}>Home</button>
+               <button className="categories" onClick={() => {}}>Categories</button>
+               <button className="uploadbutton" onClick={() => {}}>Upload project</button>
+               <button className="aboutbutton" onClick={() => {}}>About us</button>
+               <button className="contactus" onClick={() => {}}>Contact us</button>
+               </div>
+               <div className="bottom-button">
+               <button className="logoutbutton" onClick={() => {}}>Logout</button>
+               </div>
               </Drawer>
             </div>
           </div>
