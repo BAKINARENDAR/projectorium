@@ -78,6 +78,7 @@ const Header = () => {
                <div className="top-button">
                <button className="homebutton" onClick={() => {}}>Home</button>
                <button className="categories" onClick={() => {}}>Categories</button>
+               <button className="dashboard" onClick={() => {}}>Dashboard</button>
                <button className="uploadbutton" onClick={() => {}}>Upload project</button>
                <button className="aboutbutton" onClick={() => {}}>About us</button>
                <button className="contactus" onClick={() => {}}>Contact us</button>
