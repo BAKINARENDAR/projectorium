@@ -761,7 +761,7 @@ body{
   border: none;
   transition: 0.3s;
   cursor: pointer;
-  
+  text-align: left;
 }
 .homebutton:hover, .contactus:hover, .aboutbutton:hover, .categories:hover, .uploadbutton:hover{
   border: none;
@@ -778,6 +778,7 @@ body{
   transition: 0.3s;
   cursor: pointer;
   margin-top: 260px;
+  text-align: right;
 }
 .logoutbutton:hover{
   color:red;

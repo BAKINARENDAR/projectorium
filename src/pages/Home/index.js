@@ -28,7 +28,7 @@ const Home=()=>{
       
       </div>
       <div className="fivestar-container" style={{marginTop: "30px",marginLeft:"10px",marginRight:"10px"}}>
-      <center><h2 style={{ color: "white", backgroundColor:"#067062",marginBottom:"10px"}}>5-Star Projects</h2></center>
+      <center><h2 style={{borderRadius:"10px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.5)", color: "white", backgroundColor:"#067062",marginBottom:"10px"}}>5-Star Projects</h2></center>
         <Swiper
         spaceBetween={10}  
         slidesPerView={4}
@@ -56,7 +56,7 @@ const Home=()=>{
 </Swiper>
       </div>
       <div className="fivestar-container" style={{marginTop: "30px",marginLeft:"10px",marginRight:"10px"}}>
-      <center><div style={{ color: "white", backgroundColor:"#067062",marginBottom:"10px"}}><h2>4-Star Projects</h2></div></center>
+      <center><div style={{borderRadius:"10px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.5)", color: "white", backgroundColor:"#067062",marginBottom:"10px"}}><h2>4-Star Projects</h2></div></center>
         <Swiper
         spaceBetween={10}  
         slidesPerView={4}
@@ -84,7 +84,7 @@ const Home=()=>{
 </Swiper>
       </div>
       <div className="fivestar-container" style={{marginTop: "30px",marginLeft:"10px",marginRight:"10px"}}>
-        <center><h2 style={{ color: "white", backgroundColor:"#067062",marginBottom:"10px"}}>3-Star Projects</h2></center>
+        <center><h2 style={{borderRadius:"10px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.5)", color: "white", backgroundColor:"#067062",marginBottom:"10px"}}>3-Star Projects</h2></center>
         <Swiper
         spaceBetween={10}  
         slidesPerView={4}
